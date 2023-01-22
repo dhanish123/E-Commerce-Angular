@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,300;1,400&family=Sofia+Sans:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.card-img-top{
+    width:200px;
+    height:270px;
+    transition: 0.5s;
+}
+.card-img-top:hover{
+    /* scale:1.25; */
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+}
+.p1{
+    margin-top: 100px;
+}
+.p2{
+    margin-top: 100px;
+}
+.p3{
+    margin-top: 80px;
+}
